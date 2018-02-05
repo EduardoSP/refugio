@@ -2,7 +2,7 @@
 Video tutorial Django de codigo facilito 
 https://www.youtube.com/playlist?list=PLsRdPvQ2xMkH8c2BOnQ_O1KZ9lyyL_eGB
 
-video 7
+video 9
 https://docs.djangoproject.com/en/2.0/
 
 crear entorno virtual
@@ -40,6 +40,7 @@ manage.py runserver
 ir al admin
 http://localhost:8000/admin/login/?next=/admin/
 
+para correr el proyecto en otro puerto por ejemplo el 8080 entonces manage.py runserver 0.0.0.0:8080
 //----------------------------------------------------------------------------
 ingresar al shell de django para hacer pruebas
 manage.py shell
