@@ -2,6 +2,7 @@
 Video totorial de codigo facilito 
 https://www.youtube.com/playlist?list=PLsRdPvQ2xMkH8c2BOnQ_O1KZ9lyyL_eGB
 
+video 7
 https://docs.djangoproject.com/en/2.0/
 
 crear entorno virtual
