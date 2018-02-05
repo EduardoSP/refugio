@@ -39,3 +39,8 @@ para correr servidor
 manage.py runserver
 ir al admin
 http://localhost:8000/admin/login/?next=/admin/
+
+//----------------------------------------------------------------------------
+ingresar al shell de django para hacer pruebas
+manage.py shell
+//-----------------------------------------------------------------------------
