@@ -2,7 +2,7 @@
 Video tutorial Django de codigo facilito 
 https://www.youtube.com/playlist?list=PLsRdPvQ2xMkH8c2BOnQ_O1KZ9lyyL_eGB
 
-video 11
+video 13
 https://docs.djangoproject.com/en/2.0/
 
 crear entorno virtual
@@ -44,4 +44,11 @@ para correr el proyecto en otro puerto por ejemplo el 8080 entonces manage.py ru
 //----------------------------------------------------------------------------
 ingresar al shell de django para hacer pruebas
 manage.py shell
+//-----------------------------------------------------------------------------
+
+//-----------------------------------------------------------------------------
+plantillas css y js
+https://getbootstrap.com/
+Para el estilo de bootswatch cambiar el bootstrap.min.css por el de la pagina https://bootswatch.com/
+
 //-----------------------------------------------------------------------------
