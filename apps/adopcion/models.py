@@ -9,3 +9,7 @@ class Persona(models.Model):
     email       = models.EmailField()
     domicilio   = models.TextField()
 
+    #devuelve la etiqueta de los objetos para python 3
+    def __str__(self):
+        return  '{} {}'.format(self.nombre, self.apellidos)
+
