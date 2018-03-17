@@ -1,11 +1,13 @@
 {% extends 'base/base.html'%}
+{% load bootstrap %}
 
 {% block content %}
     <form method="post">
         {% csrf_token %} <!-- token de seguridad de django --> 
         </br>
-        {{ form.as_p}}<!-- el formulario se pinta como parrafo -->
+        <!-- {{ form.as_p}}el formulario se pinta como parrafo -->
+        {{ form|bootstrap }}
         <!-- {{ form.nombre}} pinta los atributos de los widgest -->
-        <button type="submit">Guardar</button>
+        <button type="submit" class="btn btn-primary">Guardar</button>
     </form>
 {% endblock %}
