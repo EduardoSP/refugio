@@ -53,6 +53,6 @@ Para el estilo de bootswatch cambiar el bootstrap.min.css por el de la pagina ht
 
 //-----------------------------------------------------------------------------
 Repositorio guia
-https://github.com/angiealejo/curso_django_codigofacilito/tree/master/apps
+https://github.com/angiealejo/curso_django_codigofacilito
 
 //-----------------------------------------------------------------------------
