@@ -2,7 +2,7 @@
 Video tutorial Django de codigo facilito 
 https://www.youtube.com/playlist?list=PLsRdPvQ2xMkH8c2BOnQ_O1KZ9lyyL_eGB
 
-video 19(ver)
+video 21(ver)
 https://docs.djangoproject.com/en/2.0/
 
 crear entorno virtual
@@ -16,8 +16,8 @@ activate
 Crear proyecto
 
 django-admin.py startproject refugio //Nombre del proyecto
-Para crear las aplicaciones de crea la carpeta apps y se escibe el siguiente comando
 
+Para crear las aplicaciones y crea la carpeta apps y se escibe el siguiente comando
 django-admin.py startapp mascota //comando para crear app
 
 
@@ -56,3 +56,9 @@ Repositorio guia
 https://github.com/angiealejo/curso_django_codigofacilito
 
 //-----------------------------------------------------------------------------
+
+urls principal o globales
+aplicación refugio/urls.py
+
+//-----------------------------------------------------------------------------
+Para configurar el gmail para el envio de correo electronico ir a mi cuenta/inicio de sesion y seguridad y habilitar la opcion de permitir el acceso de aplicaciones menos seguras
