@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
+from django.urls import reverse_lazy
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -39,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bootstrapform',
     'apps.adopcion',
-    'apps.mascota'
+    'apps.mascota',
+    'apps.usuario',
 ]
 
 MIDDLEWARE = [
@@ -128,3 +130,14 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
+
+#indica a que aplicacion nos va redireccionar despues de loguear
+LOGIN_REDIRECT_URL  = reverse_lazy('adopcion:solicitud_listar')
+
+#configuracion para enviar correos
+EMAIL_USE_TLS       = True
+EMAIL_HOST          = 'smtp.gmail.com'
+EMAIL_PORT          = 25
+EMAIL_HOST_USER     = 'email@gmail.com'
+EMAIL_HOST_PASSWORD = 'password'
+EMAIL_BACKEND       = 'django.core.mail.backends.smtp.EmailBackend'

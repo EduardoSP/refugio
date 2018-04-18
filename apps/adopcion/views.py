@@ -59,7 +59,7 @@ class SolicitudUpdate(UpdateView):
 
     def get_context_data(self, **kwargs):
         context         =   super(SolicitudUpdate, self).get_context_data(**kwargs)
-        pk              =   self.kwargs.get('pk',0)
+        pk              = self.kwargs.get('pk',0)
         solicitud       = self.model.objects.get(id=pk)
         persona         = self.second_model.objects.get(id=solicitud.persona_id)
         if 'form' not in context:
